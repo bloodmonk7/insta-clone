@@ -1,9 +1,7 @@
 {
   "private": true,
-  "engines": {
-    "node": "v16.2.0"
-  },
   "scripts": {
+    "lint": "next lint",
     "dev": "next dev",
     "build": "next build",
     "start": "node_modules/next/dist/bin/next start -p $PORT"
